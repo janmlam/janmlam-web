@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
-  homeSubtitle = "Student - Aspiring Software Engineer"
+  homeSubtitle = "Student - Aspiring Developer"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
