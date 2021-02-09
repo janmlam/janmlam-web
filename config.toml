@@ -1,5 +1,5 @@
 baseURL = "https://janmlam.com"
-title   = "Greetings visitor"
+title   = "Jan Ming Lam"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+#copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
 # disqusShortname = ""
@@ -28,8 +28,8 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
-disableSitemap = false
+disableRSS     = true
+disableSitemap = true
 disable404     = false
 disableHugoGeneratorInject = false
 
@@ -58,8 +58,7 @@ disableHugoGeneratorInject = false
   description = "Nice theme for homepages and blogs"
   keywords = ""
   images = [""]
-
-  homeSubtitle = "I am Jan Ming Lam"
+  homeSubtitle = "Student - Aspiring Software Engineer"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -94,7 +93,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   # footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-  # footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+   footerRight = "Template by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>, extended by me."
 
   # Colors for favicons
   #
@@ -105,7 +104,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "C:\\Users\\Jan"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -139,11 +138,15 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:janmla@stud.ntnu.no"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/janmlam"
+
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.stud.idi.ntnu.no/janmla"
 
   [[params.social]]
     name = "linkedin"
@@ -153,17 +156,13 @@ disableHugoGeneratorInject = false
     #name = "stackoverflow"
     #url  = "https://www.stackoverflow.com/"
 
+
+
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = ""
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
+    #copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -173,3 +172,11 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "portfolio/"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "Resume"
+    url        = "resume/"
